@@ -11,15 +11,15 @@ ul, ol {
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    color: #434455;
+    color: #4D5AE5;
     font-size: 18px;
     text-decoration: none ;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 1.17;
     
 }
 .logo .text-logo {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 
@@ -29,7 +29,8 @@ ul, ol {
     font-weight: medium;
     text-decoration: none;
     color: #434455;
-    
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 .nav-links a:hover {
     color: #4D5AE5;
@@ -38,13 +39,13 @@ ul, ol {
     text-decoration:underline ;
 }
 
-.contact-info .contact-info-link {
+.address .address-link {
     font-style: normal;
     font-size: 16px;
     color: #434455;
     text-decoration: none
 }
-.contact-info .contact-info-link:hover {
+.address .address-link:hover {
     color: #4D5AE5;
 }
 
@@ -61,7 +62,8 @@ ul, ol {
     border: none;
     cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:focus {
     background-color:#404BBF;
 }
 
